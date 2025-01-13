@@ -1,6 +1,6 @@
 import React, { createContext, useState } from "react";
-import LocalizationProvider from "@mui/lab/LocalizationProvider";
-import AdapterDateFns from "@mui/lab/AdapterDateFns";
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import Routes from "./components/Routes/Routes";
 import Modal from "./components/Modal";
 import useLocalStorageState from "./utils/localStorage";
